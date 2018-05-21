@@ -49,7 +49,7 @@ export default new Router({
       component: Counter
     },
     {
-      path: '/tasks/timeline',
+      path: '/timeline',
       name: '/tasks/timeline',
       component: TasksTimeline
     }
