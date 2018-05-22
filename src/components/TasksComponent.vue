@@ -33,7 +33,6 @@ export default {
   },
   mounted () {
     this.$store.dispatch(actions.FETCH_TASKS)
-    alert('Les imatges tarden a apareixer perquè les agafa de lorempixel.')
   }
 }
 </script>

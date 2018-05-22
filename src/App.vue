@@ -188,36 +188,35 @@
       dialog: false,
       drawer: null,
       items: [
-        { icon: 'contacts', text: 'Contacts', path: '/contacts' },
-        { icon: 'history', text: 'Frequently contacted', path: '/faqs' },
-        { icon: 'content_copy', text: 'Duplicates', path: '/duplicates' },
-        {
-          icon: 'keyboard_arrow_up',
-          'icon-alt': 'keyboard_arrow_down',
-          text: 'Labels',
-          model: true,
-          children: [
-            { icon: 'add', text: 'Create label', path: '/label/create' }
-          ]
-        },
-        {
-          icon: 'keyboard_arrow_up',
-          'icon-alt': 'keyboard_arrow_down',
-          text: 'More',
-          model: false,
-          children: [
-            { text: 'Import', path: '/import' },
-            { text: 'Export', path: '/export' },
-            { text: 'Print', path: '/print' },
-            { text: 'Undo changes', path: '/undo' },
-            { text: 'Other contacts', path: '/other_contacts' }
-          ]
-        },
-        { icon: 'settings', text: 'Settings', path: '/settings' },
-        { icon: 'chat_bubble', text: 'Send feedback', path: '/chat_bubble' },
-        { icon: 'help', text: 'Help', path: '/help' },
-        { icon: 'phonelink', text: 'App downloads', path: '/phonelink' },
-        { icon: 'keyboard', text: 'Go to the old version', path: '/keyboard' }
+        { icon: 'card_membership', text: 'Cards', path: '/cards' },
+        { icon: 'timeline', text: 'Timeline', path: '/timeline' }
+//        {
+//          icon: 'keyboard_arrow_up',
+//          'icon-alt': 'keyboard_arrow_down',
+//          text: 'Labels',
+//          model: true,
+//          children: [
+//            { icon: 'add', text: 'Create label', path: '/label/create' }
+//          ]
+//        },
+//        {
+//          icon: 'keyboard_arrow_up',
+//          'icon-alt': 'keyboard_arrow_down',
+//          text: 'More',
+//          model: false,
+//          children: [
+//            { text: 'Import', path: '/import' },
+//            { text: 'Export', path: '/export' },
+//            { text: 'Print', path: '/print' },
+//            { text: 'Undo changes', path: '/undo' },
+//            { text: 'Other contacts', path: '/other_contacts' }
+//          ]
+//        },
+//        { icon: 'settings', text: 'Settings', path: '/settings' },
+//        { icon: 'chat_bubble', text: ' feedback', path: '/chat_bubble' },
+//        { icon: 'help', text: 'Help', path: '/help' },
+//        { icon: 'phonelink', text: 'App downloads', path: '/phonelink' },
+//        { icon: 'keyboard', text: 'Go to the old version', path: '/keyboard' }
       ]
     }),
     props: {
